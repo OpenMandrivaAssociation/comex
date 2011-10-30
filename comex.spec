@@ -1,6 +1,6 @@
 Summary:   Console interface for comex project
 Name:      comex
-Version:   0.1.6.0
+Version:   0.1.6.1
 Release:   %mkrel 1
 License:   GPLv2
 #ExcludeArch: ppc64
@@ -14,12 +14,12 @@ BuildArch: noarch
 
 BuildRequires: mono
 BuildRequires: log4net-devel
-BuildRequires: comex-base-devel >= 0.1.8.4
+BuildRequires: comex-base-devel >= 0.1.8.5
 BuildRequires: pkgconfig
 
 Requires: mono
 Requires: log4net
-Requires: comex-base >= 0.1.8.4
+Requires: comex-base >= 0.1.8.5
 
 %description
 Is console interface of a simple application that can be used to exchange
@@ -49,5 +49,4 @@ rm -rf %{buildroot}
 %doc copying.gpl comex/readme.txt
 %{_bindir}/%{name}
 %_prefix/lib/%{name}/
-
 
