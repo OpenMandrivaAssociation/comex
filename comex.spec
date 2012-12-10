@@ -50,3 +50,20 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %_prefix/lib/%{name}/
 
+
+
+%changelog
+* Sun Oct 30 2011 Armando Basile <hman@mandriva.org> 0.1.6.1-1
++ Revision: 707883
+- release 0.1.6.1
+
+* Tue Oct 04 2011 Armando Basile <hman@mandriva.org> 0.1.6.0-1
++ Revision: 702987
+- removed changelog section from spec file
+- added tarball
+- release 0.1.6.0
+
+* Mon Sep 26 2011 Armando Basile <hman@mandriva.org> 0.1.5.1-1
++ Revision: 701299
+- import comex
+
