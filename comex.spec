@@ -1,7 +1,7 @@
 Summary:   Console interface for comex project
 Name:      comex
 Version:   0.1.6.1
-Release:   %mkrel 1
+Release:   2
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Text tools
